@@ -1,0 +1,109 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Jan 10 10:52:43 2024
+# Process ID: 13488
+# Current directory: C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/Decoder2to4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11000 C:\Users\LENOVO\OneDrive\Desktop\VERILOG CODES\Decoder2to4\Decoder2to4.xpr
+# Log file: C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/Decoder2to4/vivado.log
+# Journal file: C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/Decoder2to4\vivado.jou
+# Running On: DESKTOP-J43HL73, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 8258 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/Decoder2to4/Decoder2to4.xpr}
+update_compile_order -fileset sources_1
+close_project
+create_project UpCounter_4bit {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit} -part xc7k70tfbv676-1
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sources_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sources_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sources_1/new
+file mkdir {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sources_1/new}
+close [ open {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sources_1/new/UpCounter_4bit.v} w ]
+add_files {{C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sources_1/new/UpCounter_4bit.v}}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new
+file mkdir {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new}
+close [ open {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new/Upcounter_Test.v} w ]
+add_files -fileset sim_1 {{C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpCounter_4bit/UpCounter_4bit.srcs/sim_1/new/Upcounter_Test.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Upcounter_Test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source Upcounter_Test.tcl
+close_sim
+close_project
+create_project UpdownCounter_8bit {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit} -part xc7k70tfbv676-1
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sources_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sources_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sources_1/new
+file mkdir {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sources_1/new}
+close [ open {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sources_1/new/Updowncounter_8bit.v} w ]
+add_files {{C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sources_1/new/Updowncounter_8bit.v}}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new
+file mkdir {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new}
+close [ open {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new/Updowncounter_Test.v} w ]
+add_files -fileset sim_1 {{C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/UpdownCounter_8bit/UpdownCounter_8bit.srcs/sim_1/new/Updowncounter_Test.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Updowncounter_Test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source Updowncounter_Test.tcl
+close_sim
+close_project
+create_project RippleCounter_4bit {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit} -part xc7k70tfbv676-1
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sources_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sources_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sources_1/new
+file mkdir {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sources_1/new}
+close [ open {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sources_1/new/Ripplecounter_4bit.v} w ]
+add_files {{C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sources_1/new/Ripplecounter_4bit.v}}
+update_compile_order -fileset sources_1
+launch_simulation
+source Ripplecounter_4bit.tcl
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new
+file mkdir {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new}
+close [ open {C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new/Ripplecounter_Test.v} w ]
+add_files -fileset sim_1 {{C:/Users/LENOVO/OneDrive/Desktop/VERILOG CODES/RippleCounter_4bit/RippleCounter_4bit.srcs/sim_1/new/Ripplecounter_Test.v}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Ripplecounter_Test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+close_sim
